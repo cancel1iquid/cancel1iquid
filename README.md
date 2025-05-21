@@ -1,16 +1,44 @@
-## Hi there 👋
 
-<!--
-**cancel1iquid/cancel1iquid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h2 align="center">About Me </h2>
 
-Here are some ideas to get you started:
+```python
+from typing import Tuple, List, Dict
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class udud:
+    pass
+
+class Attributes(UDUD):
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        discord = "z4mb1ee"
+	    
+        return discord
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['English']
+        age   = 15
+		
+        return langs, age
+	
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'expert'      : ['python', 'go'],
+            'intermediate': ['js'],
+            'learning'    : ['']
+        }
+        specialities  = ['api', 'botting', 'reversing']
+        ide           = ['vscode']
+        pc            = {
+            'Windows': {
+                'custom': {
+                    'processor': 'Intel Core I9',
+                    'ram'      : '64gb',
+                    'gpu'      : '3080 ti'
+                }
+            }
+        }
+
+	return langs, specialities, ide, pc
+```
